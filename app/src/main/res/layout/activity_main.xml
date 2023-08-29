@@ -52,6 +52,7 @@
             <com.google.android.material.button.MaterialButton
                 style="@style/Gray.Button"
                 android:text="@string/txt_mix"
+                android:onClick="onOperationClick"
                 android:layout_marginHorizontal="16dp"/>
 
             <com.google.android.material.button.MaterialButton
@@ -199,7 +200,7 @@
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Orange.Button"
-                android:id="@+id/bnt_equal"
+                android:id="@+id/btn_equal"
                 android:onClick="onOperationClick"
                 android:text="@string/txt_equal"/>
 
