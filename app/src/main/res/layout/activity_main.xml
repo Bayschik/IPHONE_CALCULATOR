@@ -13,21 +13,33 @@
         android:layout_width="match_parent"
         android:layout_height="0dp">
         
-        <TextView
+        <EditText
             android:id="@+id/text_view"
             android:textColor="@color/white"
-            android:textSize="60dp"
+            android:textSize="60sp"
             android:layout_gravity="bottom|end"
             android:maxLines="1"
             android:ellipsize="end"
-            android:layout_marginEnd="20dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="@color/black"
             android:text="0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/switch_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/next_background"
+            android:text="@string/invisible_text"
+            android:textSize="18sp"
+            android:visibility="invisible"
+            app:cornerRadius="14dp" />
+
     </FrameLayout>
-    
-    
+
+
     <LinearLayout
         android:id="@+id/container"
         android:orientation="vertical"

@@ -5,4 +5,11 @@
     <color name="orange">#FF9E0B</color>
     <color name="dark_gray">#333333</color>
     <color name="gray">#A5A5A5</color>
+    <color name="background">#28323B</color>
+    <color name="category_color">#2F80ED</color>
+    <color name="next_background">#4486F1</color>
+    <color name="type_color">#3F3356</color>
+    <color name="seekbar_thumbTint_color">#693BFD</color>
+    <color name="seekbar_progressTint_color">#6A82F7</color>
+    <color name="nothing">#00000000</color>
 </resources>

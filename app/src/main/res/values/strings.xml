@@ -19,4 +19,14 @@
     <string name="txt_percent">%</string>
     <string name="txt_clear">AC</string>
     <string name="txt_dot">.</string>
+    <string name="cardView_explore">Explore the nightlife of your city</string>
+    <string name="free_textView">Free</string>
+    <string name="next_button">Next</string>
+    <string name="price_textView">Price</string>
+    <string name="category_text">Category</string>
+    <string name="price_text">Price</string>
+    <string name="type_text">Type</string>
+    <string name="accessibility_text">Accessibility</string>
+    <string name="participants_text">Participants</string>
+    <string name="invisible_text">Click Here</string>
 </resources>
